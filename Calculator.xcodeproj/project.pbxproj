@@ -13,6 +13,7 @@
 		07401BA11BA984B200A459C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07401BA01BA984B200A459C8 /* Images.xcassets */; };
 		07401BA41BA984B200A459C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07401BA21BA984B200A459C8 /* LaunchScreen.xib */; };
 		07401BB01BA984B200A459C8 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401BAF1BA984B200A459C8 /* CalculatorTests.swift */; };
+		07A1DB4D1BAF19F700D5D80F /* Default-Port-hd55.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A1DB4C1BAF19F700D5D80F /* Default-Port-hd55.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		07401BA91BA984B200A459C8 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07401BAE1BA984B200A459C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07401BAF1BA984B200A459C8 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		07A1DB4C1BAF19F700D5D80F /* Default-Port-hd55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Port-hd55.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				07401B991BA984B200A459C8 /* AppDelegate.swift */,
 				07401B9B1BA984B200A459C8 /* ViewController.swift */,
 				07401B9D1BA984B200A459C8 /* Main.storyboard */,
+				07A1DB4C1BAF19F700D5D80F /* Default-Port-hd55.png */,
 				07401BA01BA984B200A459C8 /* Images.xcassets */,
 				07401BA21BA984B200A459C8 /* LaunchScreen.xib */,
 				07401B971BA984B200A459C8 /* Supporting Files */,
@@ -156,6 +159,8 @@
 		07401B8C1BA984B200A459C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Better Search, LLC";
 				TargetAttributes = {
@@ -194,6 +199,7 @@
 			files = (
 				07401B9F1BA984B200A459C8 /* Main.storyboard in Resources */,
 				07401BA41BA984B200A459C8 /* LaunchScreen.xib in Resources */,
+				07A1DB4D1BAF19F700D5D80F /* Default-Port-hd55.png in Resources */,
 				07401BA11BA984B200A459C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +417,7 @@
 				07401BB51BA984B200A459C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07401BB61BA984B200A459C8 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				07401BB81BA984B200A459C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
